@@ -26,7 +26,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./MLOps            # 👈 your app directory
+        file: ./MLOps/Dockerfile    # 👈 path to Dockerfile
         push: true
         tags: sharmina/fastapi-ml-app:latest
-        platforms: linux/amd64
