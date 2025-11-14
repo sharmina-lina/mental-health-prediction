@@ -11,6 +11,6 @@ spec:
       protocol: TCP
       port: 8080            # external service port
       targetPort: 8000 
-      nodePort: 3000   # container port
+      nodePort: 30001   # container port
     
     
