@@ -43,7 +43,7 @@ We aim to predict the `mental_health_score` using behavioral and contextual data
 3. **Modeling**
    - Linear Regression
    - Random Forest Regressor
-   - XGBoost Regressor (optional)
+   - SVC
 
 4. **Evaluation**
    - Mean Absolute Error (MAE)
@@ -52,14 +52,6 @@ We aim to predict the `mental_health_score` using behavioral and contextual data
 
 ---
 
-## 📈 Model Results
-
-| Model               | MAE   | RMSE  | R² Score |
-|--------------------|-------|-------|----------|
-| Linear Regression  | 3.25  | 4.12  | 0.76     |
-| Random Forest       | 2.85  | 3.70  | 0.82     |
-
-*(Replace with your actual results)*
 
 ---
 
